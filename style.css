@@ -1,0 +1,33 @@
+*{
+    padding:0 px;
+    margin: 0px;
+}
+
+.navBar{
+    background-color: rgb(0, 0, 0) ;
+    height: 50px;
+    display: flex;
+    /* font-style: bold; */
+    font-family: fantasy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+main span h2{
+    position:relative;
+    top: 120px;
+}
+
+
+footer h3{
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    position: relative;
+    top: 510px;
+    display: flex;
+    justify-content: center;
+}
