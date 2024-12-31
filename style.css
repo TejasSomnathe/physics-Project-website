@@ -216,6 +216,24 @@ footer img:hover {
 
 /* Media Queries */
 @media (max-width: 768px) {
+  
+  footer {
+    background-color: #002db4;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.5);
+    width: 169%;
+}
+
+.myTeam {
+  height: 445px;
+  width: 523px;
+  position: relative;
+  top: 53px;
+  right: 320px;
+}
+
   .videoBox {
     flex-direction: column;
     align-items: center;
