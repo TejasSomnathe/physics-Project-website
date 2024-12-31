@@ -215,7 +215,7 @@ footer img:hover {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 1123px) {
   
   footer {
     background-color: #002db4;
