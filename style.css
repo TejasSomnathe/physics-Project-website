@@ -176,6 +176,9 @@ footer {
   text-align: center;
   padding: 30px;
   box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 10px;
+  width: 100%;
 }
 
 footer h3 {
@@ -214,40 +217,6 @@ footer img:hover {
   border-radius: 10px;
 }
 
-/* Media Queries */
-@media (max-width: 1123px) {
-  
-@media (max-width: 768px) {
-  header {
-    text-align: center;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .content {
-    width: 100%;
-    margin: 10px 0;
-  }
-}
-
-  .videoBox {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .acousticsvideo img {
-    max-width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .pdf {
-    width: 150px;
-  }
-}
-
 .videoBox {
   display: flex;
   justify-content: space-around;
@@ -276,18 +245,6 @@ footer img:hover {
 .nameDetailClass2 {
   color: #6150ff;
   font-weight: 600;
-}
-
-.myTeam {
-  height: 445px;
-  width: 523px;
-  position: relative;
-  top: 53px;
-  right: 480px;
-}
-
-.membersdetail {
-  position: relative;
 }
 
 .Engineeringphy {
@@ -331,13 +288,18 @@ footer img:hover {
   font-size: 25px;
 }
 
-.membersdetail {
-  width: 918px;
-  position: relative;
-  left: 560px;
-  bottom: 434px;
-}
-
 main div h3 {
   display: inline;
+}
+
+.myTeam {
+  width: 350px;
+  border-radius: 54px;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  column-gap: 10px;
+  padding-top: 35px;
 }
